@@ -1,5 +1,5 @@
 # Activity2.8
-ACTIVITY 2.8 ELASTIC BEANSTALK (from Co-Pilot explaination)
+ACTIVITY 2.8 ELASTIC BEANSTALK
 # my-package
 
 ## Build the package (actual practical previously)
@@ -8,6 +8,7 @@ ACTIVITY 2.8 ELASTIC BEANSTALK (from Co-Pilot explaination)
 ~$ aws elasticbeanstalk create-environment --cname-prefix my-cname --application-name my-app --version-label v1 --environment-name my-env --solution-stack-name "64bit Amazon Linux 2015.03 v2.0.0 running Ruby 2.2 (Passenger Standalone)"
 
 _(from Co-Pilot explaination)_
+
 **1. Prepare the Codebase:**
 - Modify your sample codebase as needed. Include all files relevant to the Elastic Beanstallk application.
 - Test the modified code locally to ensure it works as expected.
