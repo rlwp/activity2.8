@@ -22,17 +22,22 @@ eb deploy
 
 **3. Add Files to the Repository:**
 - Clone the repository to your local machine using:
+```
 git clone https://github.com/username/repository.git
-Replace USERNAME and REPOSITORY with your actual GitHub details.
+```
+Replace 'USERNAME' and 'REPOSITORY' with your actual GitHub details.
 - Copy your modified codebase and README file into the cloned repository folder.
 
 **4. Commit and Push Files:**
 - Add and commit the changes:
-- 
+```
 git add .
 git commit -m "Initial commit with modified codebase and README"
+```
 - Push the changes to the GitHub repository:
+```
 git push origin main
+```
 
 **5. Verify on GitHub:**
 - Check your repository online to ensure all files, including the README are uploaded.
