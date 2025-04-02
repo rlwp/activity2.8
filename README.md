@@ -7,7 +7,7 @@ ACTIVITY 2.8 ELASTIC BEANSTALK
 
 ~$ aws elasticbeanstalk create-environment --cname-prefix my-cname --application-name my-app --version-label v1 --environment-name my-env --solution-stack-name "64bit Amazon Linux 2015.03 v2.0.0 running Ruby 2.2 (Passenger Standalone)"
 
-_(from Co-Pilot explaination)_
+
 
 **1. Prepare the Codebase:**
 - Modify your sample codebase as needed. Include all files relevant to the Elastic Beanstallk application.
@@ -43,4 +43,6 @@ git push origin main
 
 **5. Verify on GitHub:**
 - Check your repository online to ensure all files, including the README are uploaded.
+
+REFERENCE: _(from Co-Pilot explaination)_
 
