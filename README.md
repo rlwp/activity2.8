@@ -13,9 +13,11 @@ ACTIVITY 2.8 ELASTIC BEANSTALK
 
 **2. Create the Package Bundle:**
 - Use the AWS Elasyic Beanstalk CLI commands to bundle your code. For example:
+```
 eb init
 eb create
 eb deploy
+```
 - Document the exact commands you used and their options in the README file for reference.
 
 **3. Add Files to the Repository:**
@@ -26,6 +28,7 @@ Replace USERNAME and REPOSITORY with your actual GitHub details.
 
 **4. Commit and Push Files:**
 - Add and commit the changes:
+- 
 git add .
 git commit -m "Initial commit with modified codebase and README"
 - Push the changes to the GitHub repository:
